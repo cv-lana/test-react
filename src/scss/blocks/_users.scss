@@ -1,0 +1,47 @@
+.users {
+  padding: 20px 60px 25px 30px;
+  background-color: $white;
+
+  &__list {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  &__item {
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    font-size: 14px;
+    line-height: 18px;
+    background-color: $white-dark;
+    border-radius: 8px;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: $grey-dark;
+  }
+
+  &__name-desc,
+  &__city-desc,
+  &__company-desc {
+    color: $black;
+  }
+
+  &__link {
+    align-self: flex-end;
+    color: $blue;
+  }
+
+  &__count {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+  }
+}

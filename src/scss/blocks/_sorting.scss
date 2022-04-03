@@ -1,0 +1,14 @@
+.sorting {
+  padding: 20px;
+  background-color: $grey-shadowy;
+
+  &__title {
+    margin-bottom: 15px;
+  }
+
+  &__buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+}

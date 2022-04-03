@@ -1,0 +1,59 @@
+@media (min-width: 992px) {
+  .button:hover:not(button:disabled) {
+    border-color: $blue;
+    background-color: $white;
+    color: $blue;
+  }
+
+  .users__link:hover {
+    color: $green;
+  }
+}
+
+@media (max-width: 768px) {
+  .users {
+    padding-right: 30px;
+
+    &__item {
+      flex-direction: column;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .wrapper {
+    padding: 40px 0;
+  }
+
+  .content {
+    grid-template-columns: 1fr;
+  }
+
+  .sorting {
+    text-align: center;
+
+    &__buttons {
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .header-block {
+    justify-content: center;
+  }
+
+  .profile,
+  .users {
+    padding: 20px 25px 25px;
+  }
+
+  .form__input {
+    width: 100%;
+  }
+}
