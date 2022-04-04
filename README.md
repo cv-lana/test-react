@@ -11,6 +11,7 @@
 - React Skeleton
 - Fetch
 - SCSS
+- Formik
 
 ### Ссылка для просмотра
 [Link](https://test-react-18a51.web.app)
